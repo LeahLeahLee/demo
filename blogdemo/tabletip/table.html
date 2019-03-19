@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .bg-yellow{
+            background-color: #F4743B;
+        }
+
+        .bg-green{
+            background-color: #A0DB58;
+        }
+
+        .bg-red{
+            background-color: #AD2800;
+        }
+    </style>
+</head>
+<body>
+<h2 class="text-center">行高度不限制，，内容一致，三等份高度</h2>
+<div style="display: table;height: 600px;width: 100%;">
+    <div style="display: table-row;" class="bg-yellow">1</div>
+    <div style="display: table-row;" class="bg-green">2</div>
+    <div style="display: table-row;" class="bg-red">3</div>
+</div>
+
+<div class="seperator"></div>
+<h2 class="text-center">行高度不限制，内容不一致，三行均分剩余高度</h2>
+<div style="display: table;height: 600px;width: 100%;">
+    <div style="display: table-row" class="bg-yellow">1</div>
+    <div style="display: table-row" class="bg-green">
+        <p>
+            我需要一段文字，很长很长的文字。我需要一段文字，很长很长的文字。我需要一段文字，很长很长的文字。我需要一段文字，很长很长的文字。
+        </p>
+        <p>
+            我需要一段文字，很长很长的文字。我需要一段文字，很长很长的文字。我需要一段文字，很长很长的文字。我需要一段文字，很长很长的文字。
+        </p>
+        <p>
+            我需要一段文字，很长很长的文字。我需要一段文字，很长很长的文字。我需要一段文字，很长很长的文字。我需要一段文字，很长很长的文字。
+        </p>
+        <p>
+            我需要一段文字，很长很长的文字。我需要一段文字，很长很长的文字。我需要一段文字，很长很长的文字。我需要一段文字，很长很长的文字。
+        </p>
+    </div>
+    <div style="display: table-row" class="bg-red">
+        <p>
+            我需要一段文字，很长很长的文字。我需要一段文字，很长很长的文字。我需要一段文字，很长很长的文字。我需要一段文字，很长很长的文字。
+        </p>
+    </div>
+</div>
+
+<div class="seperator"></div>
+<h2 class="text-center">行高度不限制，内容不一致，三行均分剩余高度</h2>
+<div style="display: table;height: 600px;width: 100%;">
+    <div style="display: table-row;height: 10%;" class="bg-yellow">1</div>
+    <div style="display: table-row;height: 10%;" class="bg-green">
+        <p>
+            我需要一段文字，很长很长的文字。我需要一段文字，很长很长的文字。我需要一段文字，很长很长的文字。我需要一段文字，很长很长的文字。
+        </p>
+        <p>
+            我需要一段文字，很长很长的文字。我需要一段文字，很长很长的文字。我需要一段文字，很长很长的文字。我需要一段文字，很长很长的文字。
+        </p>
+        <p>
+            我需要一段文字，很长很长的文字。我需要一段文字，很长很长的文字。我需要一段文字，很长很长的文字。我需要一段文字，很长很长的文字。
+        </p>
+        <p>
+            我需要一段文字，很长很长的文字。我需要一段文字，很长很长的文字。我需要一段文字，很长很长的文字。我需要一段文字，很长很长的文字。
+        </p>
+    </div>
+    <div style="display: table-row;height: 80%;" class="bg-red">
+        <p>
+            我需要一段文字，很长很长的文字。我需要一段文字，很长很长的文字。我需要一段文字，很长很长的文字。我需要一段文字，很长很长的文字。
+        </p>
+    </div>
+</div>
+
+</body>
+</html>
