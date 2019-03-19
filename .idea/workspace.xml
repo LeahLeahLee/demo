@@ -97,7 +97,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552989631217" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552996216011" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
@@ -134,15 +134,15 @@
       <option name="presentableId" value="Default" />
       <updated>1551270987511</updated>
       <workItem from="1551270989700" duration="995000" />
-      <workItem from="1551618397755" duration="56736000" />
+      <workItem from="1551618397755" duration="57232000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57731000" />
+    <option name="totallyTimeSpent" value="58227000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="535" y="69" width="1455" height="896" extended-state="0" />
+    <frame x="842" y="80" width="1455" height="896" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24274594" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
