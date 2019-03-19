@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cf90a17d-54c3-4355-b61e-8fcf4cd0452a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -97,7 +98,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552996216011" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552996619788" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
@@ -134,12 +135,12 @@
       <option name="presentableId" value="Default" />
       <updated>1551270987511</updated>
       <workItem from="1551270989700" duration="995000" />
-      <workItem from="1551618397755" duration="57232000" />
+      <workItem from="1551618397755" duration="57673000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58227000" />
+    <option name="totallyTimeSpent" value="58668000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="842" y="80" width="1455" height="896" extended-state="0" />

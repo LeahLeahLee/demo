@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>图片点击放大效果</title>
+    <style>
+        #motai{
+            display: none;
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            left: 0;
+            top: 0;
+            z-index: 999;
+            background-color: rgba(0,0,0,.7);
+        }
+        #img_yuan:hover{
+            opacity: .6;
+            cursor: pointer;
+        }
+        #img_motai{
+            display: block;
+            margin: 30px auto;
+            width: 40%;
+        }
+        #img_motai_captain{
+            margin: 15px auto;
+            text-align: center;
+            width: 40%;
+            font-size: 20px;
+            color: #ccc;
+        }
+        #img_motai,#img_motai_captain{
+            animation: display 1s;
+        }
+        @keyframes display{
+            from{
+                transform: scale(0.1);
+            }
+            to{
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+<img src="images/wlop19.jpg" id="img_yuan" alt="hello!" width="400px" style="border-radius: 10px">
+<div id="motai">
+    <img id="img_motai"  />
+    <div id="img_motai_captain"></div>
+</div>
+<script type="text/javascript">
+    window.onload = function(){
+        var img = document.getElementById('img_yuan');
+        var motai = document.getElementById('motai');
+        var motai_img =  document.getElementById('img_motai');
+        var captain = document.getElementById('img_motai_captain');
+        img.onclick = function(){
+            motai.style.display = 'block';
+            motai_img.src = this.src;
+            captain.innerText = this.alt;
+        }
+        motai_img.onclick = function(){
+            motai.style.display = 'none';
+        }
+    }
+</script>
+</body>
+</html>
